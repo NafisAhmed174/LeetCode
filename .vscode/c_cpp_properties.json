@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/homebrew/Cellar/gcc/13.2.0/include/c++/13",
+                "/opt/homebrew/Cellar/gcc/13.2.0/include"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/homebrew/bin/gcc-13",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
+ 
