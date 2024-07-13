@@ -7,7 +7,6 @@ public:
             sort(vv.begin(), vv.end());
             for(auto &x: v){
                 x = lower_bound(vv.begin(), vv.end(), x) - vv.begin();
-                // cout << x << " ";
             }
             
         };
@@ -17,7 +16,7 @@ public:
         int n = positions.size();
         stack<pair<int,int>> st;
 
-        vector<int> h(n, 0), res(n,0), rankHolder(n, 0);
+        vector<int> res(n,0), rankHolder(n, 0);
         for(int i = 0; i < n; i++){
             rankHolder[positions[i]] = i;
         }
